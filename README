@@ -1,0 +1,48 @@
+# Title
+```
+Mini Python interpreter developed in C++
+```
+
+# Description
+```
+Here is a min program to interpret and run python scripts using system language as c++.
+```
+
+# Requirements
+```
+    * GNU C++ (g++)
+    * Linux or Windows
+```
+
+# Utilized Libraries & Packages
+To run or to development the application you require to have installed packages below:
+```
+    * iostream
+	
+```
+
+# Sample Execution Command
+```
+	g++ minipython.cpp -o ˜/bin/mini_python
+
+```
+
+# Sample Successful Output
+```
+
+```
+
+# Sample Failed Error Messages
+```
+    * 1
+    Error! 
+    * 2
+    Error! 
+    * 3
+    Error! 
+    * 4
+    ...
+    * 5
+    ...
+
+```
