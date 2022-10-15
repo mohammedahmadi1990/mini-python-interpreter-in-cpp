@@ -18,31 +18,43 @@ Here is a min program to interpret and run python scripts using system language 
 To run or to development the application you require to have installed packages below:
 ```
     * iostream
+    * fstream
+    * regex
 	
 ```
 
 # Sample Execution Command
 ```
-	g++ minipython.cpp -o ˜/bin/mini_python
+	g++ minipython.cpp -o test-cases/tc01
+	g++ minipython.cpp -o test-cases/tc02
+	g++ minipython.cpp -o test-cases/tc03
+	g++ minipython.cpp -o test-cases/tc04
+	g++ minipython.cpp -o test-cases/tc05
 
 ```
 
-# Sample Successful Output
+# Sample Successful Output [based on 5 attached test-cases]
 ```
+
 
 ```
 
 # Sample Failed Error Messages
 ```
     * 1
-    Error! 
-    * 2
-    Error! 
+    Error! INPUT argument is not based on template string as below:
+	-o test-cases/tc01
+    
+	* 2
+    Error! Could not open the file - Line: 10
+   
     * 3
-    Error! 
-    * 4
-    ...
-    * 5
+    Error! No Such Variable - Line: 5
+    
+	* 4
+    Error! Syntax dismissed for print function - Line: 105
+    
+	* 5
     ...
 
 ```
